@@ -1,0 +1,330 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    display: block;
+    background-color: #F5F0E6;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    background-color: #C68B59;
+    align-items: center;
+    justify-self: center;
+    border-radius: 102px;
+    position: sticky;
+}
+.caf1 {
+    width: 120px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 90px;
+    color: #FFFFFF;
+}
+.ini {
+    background-color: #4E342E;
+    background-size: cover;
+    background-position: center;
+}
+.tit {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 200px;
+}
+.but1{
+    display: flex;
+    color: #FFFFFF;
+    background: none;
+    margin: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    justify-self: center;
+    border: solid #d4a373;
+    text-decoration: none;
+    transform: 0.3;
+}
+.but1:hover {
+    background-color: #d4a373;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+/*Sobre*/
+
+
+.sobr {
+    background-color: #6D4C41;
+    padding: 100px 0;
+}
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.caf2 {
+    width: 400px;
+    border-radius: 50px;
+}
+.sobre-texto {
+    max-width: 500px;
+}
+.sob {
+    font-size: 55px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+.bre {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+/*--------------------------------------------
+Cardapio
+
+parte do cafe
+--------------------------------------------*/
+
+main {
+    background-color: #4E342E;
+    padding-bottom: 80px;
+}
+.coff {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+.cafes-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 60px;
+}
+.cafe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caff{
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.cafi {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val1 {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.cap {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.capi {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val2 {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.lat{
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.lati {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val3 {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+/*--------------------------------------------
+Cardapio
+
+parte do doces
+--------------------------------------------*/
+
+
+.swee {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+.sweet-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: 60px;
+}
+.sweet-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pudin {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.puid {
+    width: 450px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val4{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.cro {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.crois {
+    width: 420px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val5{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.coo {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.cho {
+    width: 490px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val6{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+
+/*avaliacaoes*/
+
+
+
+.noa {
+    background-color: #6D4C41;
+    padding-bottom: 80px;
+}
+
+.avali {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+.avaliacao-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 300px;
+    margin-top: 60px;
+}
+.avalia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil {
+    width: 120px;
+    border-radius: 90px;
+    margin-top: 20px;
+}
+
+
+/* contato */
+
+
+.conta {
+    background-color: #4E342E;
+    padding-top: 1px;
+}
+
+.tato {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+}
+
+.yami {
+    background-color: #C68B59;
+    border-radius: 20px;
+    width: 700px;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    width: 250px;
+    text-align: center;
+}
+
+.cafei {
+    width: 250px;
+}
+
+.campos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+button {
+    position: relative;
+    left: 90px;
+    width: 200px;
+}
+
+
+
+/*rodape*/
+
+
+footer {
+    background-color: #6d443b;
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
