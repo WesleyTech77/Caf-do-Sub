@@ -1,2 +1,2 @@
-# Caf-do-Sub
+# Cafe-do-Sub
 Um site de uma cafeteria ;) 
