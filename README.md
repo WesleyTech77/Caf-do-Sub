@@ -1,2 +1,4 @@
 # Cafe-do-Sub
-Um site de uma cafeteria ;) 
+Um site simples de uma cafeteria usando html e css
+
+;)
